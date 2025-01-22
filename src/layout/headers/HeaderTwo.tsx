@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import NavMenu from './Menu/NavMenu';
 import UseSticky from '@/hooks/UseSticky';
-import LogoTwo from '@/assets/img/logo/logo-2.png';
+import LogoTwo from '@/assets/img/logo/cbslogo.png';
 import Image from 'next/image';
 import MobileMenus from './Menu/MobileMenus';
 

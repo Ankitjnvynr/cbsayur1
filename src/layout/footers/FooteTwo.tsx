@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image, { StaticImageData } from 'next/image';
 
-import footer_logo from "@/assets/img/logo/logo-2.png";
+import footer_logo from "@/assets/img/logo/cbslogo.png";
 import SocialLinks, { CopyRight } from '@/components/common/SocialLinks';
 import footer_icon_1 from "@/assets/img/icon/footer-co-icon-1.png";
 import footer_icon_2 from "@/assets/img/icon/footer-co-icon-2.png";
