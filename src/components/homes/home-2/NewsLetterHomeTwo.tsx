@@ -8,11 +8,11 @@ type DataType = {
   sm_info: string;
 }
 const news_content: DataType = {
-  sub_title: "Subscribe For Get Update",
-  title: "Let's Find An Office Near You.",
-  sm_info: "incididunt ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor  ut labore et lorem dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+  sub_title: "Subscribe for Ayurvedic Updates",
+  title: "Stay Informed About Ayurveda & Wellness",
+  sm_info: "Join our community to receive the latest updates on Ayurveda courses, Panchakarma treatments, herbal remedies, and holistic wellness tips. Stay connected with the wisdom of Ayurveda for a healthier life.",
+};
 
-}
 const {sub_title, title, sm_info}  = news_content
 
 const NewsLetterHomeTwo = () => {
