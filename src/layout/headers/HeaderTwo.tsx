@@ -34,7 +34,7 @@ const HeaderTwo = () => {
               </div>
               <div className="col-xl-4 col-lg-2 d-none d-lg-block d-xl-block">
                 <div className="header-right f-right">
-                  <Link href="/contact" data-animation="fadeInLeft" data-delay=".6s" className="btn btn-icon btn-icon-green">
+                  <Link href="/" data-animation="fadeInLeft" data-delay=".6s" className="btn btn-icon btn-icon-green">
                     <span>+</span>contact us
                   </Link>
                   <Link href="#" data-animation="fadeInLeft" data-delay=".6s" className="btn btn-icon btn-icon-white">

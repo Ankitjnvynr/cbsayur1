@@ -47,7 +47,7 @@ const footer_content: DataType = {
       id: 1,
       img: footer_icon_1,
       title: "Mon to Fri : 08h30 - 18h00",
-      info: "+898 68679 575 09",
+      info: "+123 456 7890",
       link: false,
     },
     {
@@ -68,42 +68,21 @@ const footer_content: DataType = {
   ],
   link_data: [
     {
-      title: "Departments",
+      title: "Quick Links",
       links: [
-        { title: "Surgery and Radiology", link: "#" },
-        { title: "Departments", link: "#" },
-        { title: "Family Medicine", link: "#" },
-        { title: "Our Doctors", link: "#" },
-        { title: "Women's Health", link: "#" },
-        { title: "News", link: "#" },
-        { title: "Optician", link: "#" },
-        { title: "Shop", link: "#" },
-        { title: "Pediatrics", link: "#" },
+        { title: "Home", link: "#" },
+       
+        { title: "About", link: "#" },
+       
+        { title: "Courses", link: "#" },
+        
         { title: "Contact Us", link: "#" },
-        { title: "Dermatology", link: "#" },
-        { title: "Book an Appointment", link: "#" },
+       
       ]
     }
   ],
   footer_blog_data: [
-    {
-      id: 1,
-      img: blog_thumb_1,
-      title: "Consectetur ipsum dolor sit am et, lorem .",
-      time: "14 August 2023"
-    },
-    {
-      id: 2,
-      img: blog_thumb_2,
-      title: "Consectetur ipsum dolor sit am et, lorem .",
-      time: "14 August 2023"
-    },
-    {
-      id: 3,
-      img: blog_thumb_3,
-      title: "Consectetur ipsum dolor sit am et, lorem .",
-      time: "14 August 2023"
-    },
+    
   ]
 }
 const { subscribe, subscribe_text, footer_contact, link_data, footer_blog_data } = footer_content
@@ -118,7 +97,7 @@ const FooteTwo = () => {
               <div className="row align-items-center">
                 <div className="col-xl-4 col-lg-4 col-md-4">
                   <div className="footer-logo-2">
-                    <Image src={footer_logo} alt="theme-pure" />
+                    <Image width={250} src={footer_logo} alt="theme-pure" />
                   </div>
                 </div>
                 <div className="col-xl-2 col-lg-3 d-none d-lg-block d-xl-block">

@@ -11,9 +11,10 @@ const social_links: SocialLinksDataType[] = [
     link: "http://facebook.com",
     icon: "fab fa-facebook-f",
   },
+ 
   {
-    link: "http://behance.com",
-    icon: "fab fa-behance",
+    link: "http://instagram.com",
+    icon: "fab fa-instagram",
   },
   {
     link: "http://www.youtube.com",
@@ -23,10 +24,7 @@ const social_links: SocialLinksDataType[] = [
     link: "http://www.linkedin.com",
     icon: "fab fa-linkedin",
   },
-  {
-    link: "http://www.pinterest.com",
-    icon: "fab fa-pinterest",
-  },
+ 
 ];
 
 const SocialLinks = () => {
@@ -155,8 +153,8 @@ type CopyRightDataType = {
 }
 
 const copy_right_text: CopyRightDataType = {
-  copy_right: <> ©{new Date().getFullYear()} Copyrights by company. All Rights Reserved. Designed by
-    <Link target="_blank" href="https://themeforest.net/user/theme_pure/portfolio" style={{ color: "#fff" }}> Theme_Pure. </Link>
+  copy_right: <> ©{new Date().getFullYear()} Copyrights by CBS College of Aurveda. All Rights Reserved. Designed by
+    <Link target="_blank" href="https://bigbyteworld.com" style={{ color: "#fff" }}> BigByte Innovations PVT Ltd. </Link>
   </>,
 }
 
