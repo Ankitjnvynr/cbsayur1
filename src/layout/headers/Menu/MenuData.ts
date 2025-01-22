@@ -4,10 +4,10 @@ interface MenuDataType {
   title: string;
   link: string;
   has_dropdown: boolean;
-  // sub_menus: {
-  //     link: string;
-  //     title: string;
-  // }[];
+  sub_menus: {
+      link: string;
+      title: string;
+  }[];
 }[]
 
 const MenuData: MenuDataType[] = [
@@ -16,6 +16,7 @@ const MenuData: MenuDataType[] = [
     title: "Home",
     link: "#",
     has_dropdown: false, 
+    sub_menus: []
    
   },
   {
@@ -23,17 +24,14 @@ const MenuData: MenuDataType[] = [
     title: "Department",
     link: "#",
     has_dropdown: false, 
-    // sub_menus: [
-    //   { link: "/service",                    title: "Service 01",}, 
-    //   { link: "/service-2",                  title: "Service 02",}, 
-    //   { link: "/service-details",            title: "Service Details",}, 
-    // ],
+     sub_menus: []
   },
   {
     id: 3,
     title: "About",
     link: "#",
     has_dropdown: false, 
+    sub_menus: []
     // sub_menus: [
     //   { link: "/doctor",                      title: "Doctors 01",},  
     //   { link: "/doctor-2",                    title: "Doctors 02",},  
@@ -45,6 +43,7 @@ const MenuData: MenuDataType[] = [
     title: "Courses",
     link: "#",
     has_dropdown: false, 
+    sub_menus: []
     // sub_menus: [
     //   { link: "/shop",                        title: "Shop Page",},   
     //   { link: "/product-details",             title: "Shop Details",},   
@@ -60,6 +59,7 @@ const MenuData: MenuDataType[] = [
     title: "Admmision",
     link: "#",
     has_dropdown: false, 
+    sub_menus: []
     // sub_menus: [
     //   { link: "/blog",                        title: "Blog Right Sidebar",},    
     //   { link: "/blog-left-sidebar",           title: "Blog Left Sidebar",},    
@@ -80,6 +80,7 @@ const MenuData: MenuDataType[] = [
     title: "Events",
     link: "#",
     has_dropdown: false, 
+    sub_menus: []
     // sub_menus: [
     //   { link: "/about",                        title: "About",},     
     //   { link: "/appoinment",                   title: "Appoinment",},     
