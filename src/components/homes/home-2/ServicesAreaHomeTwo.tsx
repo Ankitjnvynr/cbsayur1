@@ -39,7 +39,7 @@ const ServicesAreaHomeTwo = () => {
                     <h6 className="green-color text-up-case letter-spacing mb-20">{item.sub_title}</h6>
                     <h3><Link href="#">{item.title}</Link></h3>
                     <p>{item.sm_des}</p>
-                    <Link className="service-link" href="/service-details">
+                    <Link className="service-link" href="/">
                       <i className="fas fa-arrow-right"></i>Read More
                     </Link>
                   </div>
