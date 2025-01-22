@@ -56,7 +56,7 @@ const MenuData: MenuDataType[] = [
   },
   {
     id: 5,
-    title: "Admmision",
+    title: "Admission",
     link: "#",
     has_dropdown: false, 
     sub_menus: []

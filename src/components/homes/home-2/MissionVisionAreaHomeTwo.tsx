@@ -19,22 +19,23 @@ interface MissionContentDataType {
 }
 
 const mission_content: MissionContentDataType = {
-  sub_title: "Our Mission & Vission",
-  title: "Keep Going With Your Passion.",
-  sm_des: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  sub_title: "Our Mission & Vision",
+  title: "Empowering Ayurveda for a Healthier Tomorrow",
+  sm_des: "Our mission is to preserve and promote the ancient wisdom of Ayurveda through quality education, research, and practice. We aim to develop skilled Ayurvedic professionals who can integrate holistic healing into modern healthcare systems, fostering a balanced and natural approach to wellness.",
   mission_data: [
     {
       id: 1,
       img: mission_icon_1,
-      sm_info: "It enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      sm_info: "Providing in-depth education on Ayurvedic principles, therapies, and holistic healing.",
     },
     {
       id: 2,
       img: mission_icon_2,
-      sm_info: "It enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      sm_info: "Promoting natural and sustainable wellness through research and traditional practices.",
     },
   ]
-}
+};
+
 const { sub_title, title, sm_des, mission_data } = mission_content
 
 const MissionVisionAreaHomeTwo = () => {

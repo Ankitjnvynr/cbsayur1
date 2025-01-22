@@ -25,39 +25,41 @@ const about_content: AboutContentDatatype = {
       id: 1,
       cls: "mb-40",
       img: about_icon_1,
-      title: "Advanced Care",
-      sm_info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.",
+      title: "Bachelor of Ayurvedic Medicine and Surgery (BAMS)",
+      sm_info: "A professional degree in Ayurveda covering ancient medical sciences, herbal medicine, and traditional healing therapies.",
     },
     {
       id: 2,
       cls: "mt-40",
       img: about_icon_2,
-      title: "Respite Care",
-      sm_info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.",
+      title: "Diploma in Panchakarma Therapy",
+      sm_info: "A specialized course focusing on Panchakarma detox therapies, Ayurvedic massage techniques, and herbal treatments.",
     },
     {
       id: 3,
       cls: "mb-30",
       img: about_icon_3,
-      title: "Daily Care",
-      sm_info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.",
+      title: "Certificate Course in Ayurvedic Nutrition",
+      sm_info: "Learn about Ayurvedic diet principles, herbal nutrition, and food therapy for maintaining a balanced lifestyle.",
     },
     {
       id: 4,
       cls: "mt-40 mb-30",
       img: about_icon_4,
-      title: "Neuorology Care",
-      sm_info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.",
+      title: "Advanced Diploma in Ayurvedic Pharmacy",
+      sm_info: "A course designed for understanding Ayurvedic formulations, herbal drug preparation, and natural medicine production.",
     },
   ],
+
   sub_title: "About Us",
-  title: "Short Story About MediDove Clinic.",
-  sm_des: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
+  title: "A Glimpse into Our Ayurveda Institute",
+  sm_des: "Rooted in the wisdom of ancient Ayurveda, our institute is dedicated to nurturing holistic healing through traditional knowledge and modern applications. We provide in-depth education on natural therapies, herbal medicine, and Panchakarma treatments to empower future Ayurvedic practitioners.",
   features: [
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.",
-    "Eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea co.",
-  ]
+      "Comprehensive courses in Ayurveda, Panchakarma, and Herbal Medicine.",
+      "Experienced faculty with deep expertise in traditional healing practices.",
+      "Hands-on training in Ayurvedic treatments and natural wellness techniques.",
+  ],
+  
 }
 const { about_data, sub_title, title, sm_des, features } = about_content
 
